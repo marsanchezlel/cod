@@ -1,160 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clasificación de refacciones</title>
-  <link rel="icon" href="favi.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de refacciones</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="icon" href="favi.png" type="image/png"> <!-- Ícono de herramienta -->
 
-  <style>
-    /* Reset de márgenes y configuración general */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body,
-    html {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-      background: url('imbuscar.JPG') no-repeat center center fixed;
-      background-size: cover;
-      top: 0;
-      left: 0;
-    }
-
-    /* Contenedor principal */
-    .container {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-    }
-
-    /* Filas de contenedores */
-    .row {
-      display: flex;
-      width: 100%;
-      justify-content: space-around;
-      gap: 20px;
-    }
-
-    /* Estilos para los recuadros */
-    .box {
-      flex: 1;
-      max-width: 300px;
-      min-height: 150px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
-      font-weight: bold;
-      color: #ffffffa9;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-      cursor: pointer;
-      position: relative;
-      overflow: hidden;
-    }
-
-    /* Color inicial de cada recuadro */
-    .box1,
-    .box2,
-    .box3,
-    .box4,
-    .box5,
-    .box6,
-    .box7,
-    .box8 {
-      background-color: rgba(9, 41, 61, 0.56);
-    }
-
-    /* Efectos al pasar el mouse */
-    .box:hover {
-      transform: scale(1.1);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-      background: linear-gradient(
-        135deg,
-        rgba(255, 255, 255, 0.3),
-        rgba(255, 255, 255, 0)
-      );
-    }
-
-    /* Texto dentro del recuadro */
-    .box a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    /* Back-link para navegación */
-    .back-link {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-size: 20px;
-      color: #00000089;
-      text-decoration: none;
-      font-weight: bold;
-      background: rgba(255, 255, 255, 0.00005);
-      padding: 10px 20px;
-      border-radius: 5px;
-      z-index: 10;
-    }
-
-    .back-link:hover {
-      background: rgba(247, 246, 246, 0);
-    }
-  </style>
 </head>
 <body>
-  <div class="contenedor-catalogo2">
     <div class="container">
-      <div class="row">
-        <div class="box box1">
-          <a href="index_electronicosenvasado.html">Electrónicos envasado</a>
+        <div class="row">
+            <div class="box box1">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_electronicosenvasado.html">Electrónicos envasado</a>
+            </div>
+
+            <div class="box box2">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_electronicosexterior.html">Electrónicos exterior</a>
+            </div>
+
+            <div class="box box3">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_mecanicoenvasado.html">Mecánico envasado</a>           
+             </div>
+
+             <div class="box box4">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_mecanicoenvasado.html">Eléctricos</a>           
+             </div>
         </div>
 
-        <div class="box box2">
-          <a href="index_electronicosexterior.html">Electrónicos exterior</a>
-        </div>
+        <div class="row">
+            <div class="box box5">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_mecanicoexterior.html">Mecánico exterior</a>            
+            </div>
 
-        <div class="box box3">
-          <a href="index_mecanicoenvasado.html">Mecánico envasado</a>
-        </div>
+            <div class="box box6">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_sax.html">SAX</a>       
+             </div>             
 
-        <div class="box box4">
-          <a href="index_electrico.html">Eléctricos</a>
-        </div>
-      </div>
+            <div class="box box7">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_plantasdeagua.html">Plantas de agua</a>        
+            </div> 
 
-      <div class="row">
-        <div class="box box5">
-          <a href="index_mecanicoexterior.html">Mecánico exterior</a>
+            <div class="box box8">
+                <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index_plantasdeagua.html">Elaboración</a>        
+            </div>            
         </div>
-
-        <div class="box box6">
-          <a href="index_sax.html">SAX</a>
-        </div>
-
-        <div class="box box7">
-          <a href="index_plantasdeagua.html">Plantas de agua</a>
-        </div>
-
-        <div class="box box8">
-          <a href="index_refaccionesgenerales.html">Refacciones generales</a>
-        </div>
-      </div>
     </div>
-  </div>
+    <a href="file:///C:/Users/marsa/OneDrive/Documents/codigo%20html%201/index.html" class="back-link">...</a>
+</body>
+</html>
+
 
   <a href="index.html" class="back-link">...</a>
 </body>
