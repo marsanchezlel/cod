@@ -80,4 +80,18 @@ body, html {
     text-decoration: none; /* Elimina el subrayado */
 }
 
+@media (max-width: 768px) {
+    /* Ajustar la posición de los cuadros en móviles */
+    .contenedores-inferiores {
+        bottom: 20px;
+        right: 20px;
+        gap: 8px;
+    }
 
+    .contenedor-inferior {
+        width: 90%;      /* Que ocupe casi todo el ancho de la pantalla */
+        max-width: 300px;
+        height: 45px;     /* Un poco más alto si es necesario */
+        font-size: 1rem;  /* Texto más legible en móviles */
+    }
+}
